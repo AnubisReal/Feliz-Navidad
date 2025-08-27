@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="floating-shapes"></div>
+    
+    <main class="container">
+        <header>
+            <h1>Temptation Food Truck</h1>
+            <h2>Auténtica Comida Cubana</h2>
+            <p class="opening-text">Abrimos el próximo</p>
+            <p class="date-display" id="targetDate"></p>
+        </header>
+        
+        <section class="countdown">
+            <div class="time-block">
+                <span class="time-value" id="days">0</span>
+                <span class="time-label">Días</span>
+            </div>
+            <div class="time-block">
+                <span class="time-value" id="hours">0</span>
+                <span class="time-label">Horas</span>
+            </div>
+            <div class="time-block">
+                <span class="time-value" id="minutes">0</span>
+                <span class="time-label">Minutos</span>
+            </div>
+            <div class="time-block">
+                <span class="time-value" id="seconds">0</span>
+                <span class="time-label">Segundos</span>
+            </div>
+        </section>
+        
+        <footer class="info">
+            <p class="website">temptationfoodtruck.com</p>
+            <p class="tagline">El sabor de Cuba en cada bocado</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
